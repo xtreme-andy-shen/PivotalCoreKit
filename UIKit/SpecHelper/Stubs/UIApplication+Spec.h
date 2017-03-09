@@ -7,6 +7,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (nullable NSURL *)lastOpenedURL;
 + (void)reset;
 
+- (void)tapHomeScreenShortcutAtIndex:(NSUInteger)index;
+- (void)tapHomeScreenShortcutWithLocalizedTitle:(NSString *)title;
+
 @end
 
 NS_ASSUME_NONNULL_END
